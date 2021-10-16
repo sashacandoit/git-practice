@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* makes the view height take up the entire viewable area */
+    background-color: black;
+}
+
+h1 {
+    font-size: 12rem;
+    font-family: Montserrat, sans-serif;
+}
+
+/* select the letter class and set a transition to the color */
+
+.letter {
+    transition: color 800ms;
+    /* since the color is changing every 500ms the transition will be constant */
+}
