@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     /* makes the view height take up the entire viewable area */
-    background-color: black;
+    background-color: rgb(11, 0, 71);
 }
 
 h1 {
