@@ -1,0 +1,14 @@
+PART 1
+
+1. git branch new-branch-name
+
+2. Fast-forward merge has no conflicts - git can tell which commits to merge in what order. 
+Recursive merge  both branches have commits that don't align with each other, and git needs a human to manually check and select the changes to keep or remove
+
+3. git checkout branch-name
+
+4. git -d branch-name 
+(if the branch is not merged, will need to use git -D branch-name to complete deleting) 
+
+5. When both branches have a new file made with the same name but different content.
+When both branches have changes/ files / folders that the other does not have in their commits.
